@@ -30,7 +30,7 @@ jobs:
         run: pwd
 
       # Runs a set of commands using the runners shell
-      - name: ls -al
-        run: docker
+      - name: docker ps
+        run: docker ps
 
 
